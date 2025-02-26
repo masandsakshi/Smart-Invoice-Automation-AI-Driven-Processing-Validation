@@ -1,0 +1,21 @@
+services:
+
+  app:
+    build: .
+    
+    container_name: jupyter_notebook
+    command: jupyter notebook --notebook-dir=/code/src --ip='0.0.0.0' --port=8888 --no-browser --allow-root
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/code
+    
+    # Together, stdin_open: true and tty: true can be used to ensure that a container remains interactive and responsive to terminal commands.
+    stdin_open: true
+    tty: true
+
+    environment:
+      # Ensures Python output is sent to the terminal (or any other standard output) immediately without being buffered. 
+      - PYTHONUNBUFFERED=1
+      - JUPYTER_TOKEN=${JUPYTER_TOKEN}
+      

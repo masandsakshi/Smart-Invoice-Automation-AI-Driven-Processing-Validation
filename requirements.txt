@@ -1,0 +1,14 @@
+jupyter
+openai
+langchain
+langchain_community
+langchain-ollama
+anthropic
+crewai
+crewai_tools
+python-dotenv
+requests
+tenacity
+termcolor
+pydantic
+google-generativeai

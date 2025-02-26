@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+venv/
+.env
+
+.DS_Store
+.Trash-0/
+.ipynb_checkpoints/
+.qodo/
+.vscode/
