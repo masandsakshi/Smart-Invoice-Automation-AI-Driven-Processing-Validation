@@ -8,8 +8,8 @@ It extracts invoice details, validates them, detects fraud, notifies vendors/fin
 ## **🚀 Features**
 ✅ **Invoice Data Extraction** → Uses **Gemini AI** to extract invoice details from images.  
 ✅ **Validation & Fraud Detection** → Checks for **duplicate invoices, missing fields, tax mismatches,** etc.  
-✅ **Automated Notifications** → Vendors & finance teams are alerted when necessary.  
-✅ **ERP Integration (Simulated)** → Updates invoice status & triggers payments.  
+✅ **Notifications and Alerts** → Vendors & finance teams are alerted when necessary.  
+✅ **ERP Integration (Simulated)** → Updates invoice status & triggers notifications to vendors  
 ✅ **Database Storage** → Uses **SQLite** to store invoices securely.  
 ✅ **Multi-Agent Orchestration** → Uses **CrewAI** to coordinate agent execution.  
 ✅ **Docker Support** → Containerized for easy deployment.  
